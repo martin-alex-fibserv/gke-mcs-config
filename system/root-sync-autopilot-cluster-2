@@ -1,0 +1,13 @@
+apiVersion: configsync.gke.io/v1beta1
+kind: RootSync
+metadata:
+  name: root-sync-autopilot-cluster-2
+  namespace: config-management-system
+spec:
+  sourceType: git
+  sourceFormat: unstructured
+  git:
+    repo: https://github.com/martin-alex-fibserv/gke-mcs-config.git
+    branch: main
+    dir: clusters/autopilot-cluster-2
+    auth: none
