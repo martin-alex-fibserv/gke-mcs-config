@@ -5,7 +5,6 @@ resources:
   - ../../shared/policies
   - apps
   - networking
-  - rbac
   - namespaces/team-1/namespace.yaml
   - namespaces/team-1/sa.yaml
   - namespaces/team-1/rolebinding-secret-reader.yaml
