@@ -6,5 +6,3 @@ resources:
   - apps
   - networking
   - namespaces/team-1
-  - namespaces/team-1/sa.yaml
-  - namespaces/team-1/rolebinding-secret-reader.yaml
