@@ -5,4 +5,5 @@ resources:
   - ../../shared/policies
   - apps
   - networking
+  - rbac
   - namespaces/team-1
