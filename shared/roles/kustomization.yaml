@@ -4,3 +4,4 @@ resources:
   - clusterrole-namespace-reader.yaml
   - clusterrole-secret-reader.yaml
   - clusterrole-secret-admin.yaml
+  - clusterrolebinding-namespace-reader.yaml
