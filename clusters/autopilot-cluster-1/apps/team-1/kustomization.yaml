@@ -3,4 +3,4 @@ kind: Kustomization
 resources:
   - rolebinding-deployer.yaml
   - sa.yaml
-  - test-nginx.yaml
+  - team1-nginx.yaml
